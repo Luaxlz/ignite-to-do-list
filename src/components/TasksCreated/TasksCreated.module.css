@@ -1,0 +1,13 @@
+.TaskCreatedInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  max-height: 19px;
+}
+
+.TaskCreatedInfo > p {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+}

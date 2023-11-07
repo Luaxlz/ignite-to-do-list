@@ -1,0 +1,13 @@
+.TasksDoneInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  max-height: 19px;
+}
+
+.TasksDoneInfo > p {
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 0.875rem;
+}
