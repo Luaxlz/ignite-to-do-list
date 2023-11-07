@@ -9,7 +9,7 @@ import './global.css';
 
 function App() {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
       <div className={styles.wrapper}>
         <NewTaskInput />
