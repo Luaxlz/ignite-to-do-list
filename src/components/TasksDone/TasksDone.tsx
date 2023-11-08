@@ -1,11 +1,16 @@
-import { Counter } from '../Counter/Counter';
 import styles from './TasksDone.module.css';
 
-export const TasksDone = () => {
+interface TasksDoneProps {
+  tasksDoneCount: number;
+}
+
+export const TasksDone = ({ tasksDoneCount }: TasksDoneProps) => {
   return (
     <div className={styles.TasksDoneInfo}>
       <p>Concluídas</p>
-      <Counter />
+      <span className={styles.counter}>
+        {tasksDoneCount ? tasksDoneCount : 0}
+      </span>
     </div>
   );
 };

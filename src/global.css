@@ -3,7 +3,7 @@
   --blue-dark: #1e6f9f;
   --blue: #4ea8de;
   --purple-dark: #5e60ce;
-  --puple: #8284fa;
+  --purple: #8284fa;
 
   --gray-700: #0d0d0d;
   --gray-600: #1a1a1a;
@@ -37,4 +37,19 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--gray-300);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue-dark);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
 }

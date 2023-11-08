@@ -1,11 +1,14 @@
-import { Counter } from '../Counter/Counter';
 import styles from './TasksCreated.module.css';
 
-export const CreatedTasks = () => {
+interface CreatedTasksProps {
+  tasksCount: number;
+}
+
+export const CreatedTasks = ({ tasksCount }: CreatedTasksProps) => {
   return (
     <div className={styles.TaskCreatedInfo}>
       <p>Tarefas Criadas</p>
-      <Counter />
+      <span className={styles.counter}>{tasksCount ? tasksCount : 0}</span>
     </div>
   );
 };
