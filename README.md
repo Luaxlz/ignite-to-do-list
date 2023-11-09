@@ -1,5 +1,7 @@
 # Ignite's To-do List
 
+![](https://github.com/Luaxlz/ignite-to-do-list/blob/main/recort-gif.gif)
+
 This project was made as part of [@Rocketseat's](https://www.rocketseat.com.br) frontend with react development course.
 The project challenge consists into making a app for tracking and creating tasks, it was given to the students a figma project for styles guide.
 It was made with [@vite](https://vitejs.dev), [@react](https://vitejs.dev) and [@typescript](https://www.typescriptlang.org)
